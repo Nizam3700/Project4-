@@ -1,0 +1,167 @@
+nav{
+    text-align: center;
+    grid-template-areas: 
+    'one one one one'
+    'two two two two'
+    'three three three three'
+    'four four four four'
+    'five five five five';
+}
+@media screen and (min-width: 1441px){
+    body{
+        background-color: #7FFFD5;
+        border-radius: 10px;
+    }
+    nav{
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three three'
+        'four four four four'
+        'five five five five';
+    }
+    #two{
+        display: none;
+    }
+    #three{
+        display: none;
+    }
+    #four{
+        display: none;
+    }
+    #five{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    body{
+        background-color: #208B21;
+        border-radius: 10px;
+    }
+    nav{
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three three'
+        'four four four four'
+        'five five five five';
+    }
+    #one{
+        display: none;
+    }
+    #three{
+        display: none;
+    }
+    #four{
+        display: none;
+    }
+    #five{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        background-color: #B1882F;
+        border-radius: 10px;
+    }
+    nav{
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three'
+        'four four four four'
+        'five five five five';
+    }
+    #one{
+        display: none;
+    }
+    #two{
+        display: none;
+    }
+    #three{
+        display: block;
+    }
+    #four{
+        display: none;
+    }
+    #five{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: #75FBFD;
+        border-radius: 10px;
+    }
+    nav{
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three three'
+        'four four four four'
+        'five five five five';
+    }
+    #one{
+        display: none;
+    }#two{
+        display: none;
+    }#three{
+        display: none;
+    }#four{
+        display: block;
+    }#five{
+        display: none;
+    }
+}
+@media screen and (max-width: 425px){
+    body{
+        background-color: #CA3142;
+        border-radius: 10px;
+    }
+    nav{
+        grid-template-areas: 
+        'one one one one'
+        'two two two two'
+        'three three three three'
+        'four four four four'
+        'five five five five';
+    }
+    #one{
+        display: none;
+    }#two{
+        display: none;
+    }#three{
+        display: none;
+    }#four{
+        display: none;
+    }#five{
+        display: block;
+    }
+}
+p{
+    font-size: 25px;
+    font-weight: 200;
+}
+.demo{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold
+}
+#one{
+    grid-area: one;
+}
+#two{
+    grid-area: two;
+}
+#three{
+    grid-area: three;
+}
+#four{
+    grid-area: four;
+}
+#five{
+    grid-area: five;
+}
